@@ -2,7 +2,7 @@
 from geopy.distance import  geodesic
 
 city1 = ( 51.5074, 0.1278)
-city2 = (48.8566, 2.3522)
+city2 = (48.8566, -2.3522)
 
 distance = geodesic(city1, city2).kilometers
 
